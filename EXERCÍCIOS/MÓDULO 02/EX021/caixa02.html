@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        background-color: rgb(123, 231, 123);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+      }
+
+      header {
+        background-color: darkgreen;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      header > h1 {
+        background-color: darkgreen;
+        font-size: 3em;
+        text-align: center;
+        color: white;
+      }
+
+      nav {
+        background-color: rgb(0, 138, 0);
+        box-shadow: 3px 2px 7px rgba(7, 28, 0, 0.433);
+        padding: 10px;
+      }
+
+      nav > a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+        margin: 15px;
+      }
+
+      nav > a:hover {
+        text-decoration: underline;
+        color: rgb(3, 255, 3);
+      }
+
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 3px 2px 7px rgba(7, 28, 0, 0.433);
+      }
+
+      article {
+        color: green;
+      }
+
+      h2 {
+        background-color: darkgreen;
+        color: white;
+      }
+
+      img {
+        height: 280px;
+        margin-left: 10px;
+      }
+
+      footer {
+        text-align: center;
+        background-color: darkgreen;
+        padding: 1px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Palmeiras</h1>
+      <nav>
+        <a href="#">Futebol</a>
+        <a href="#">Elenco</a>
+        <a href="#">História</a>
+        <a href="#">Contato</a>
+      </nav>
+    </header>
+    <main>
+      <section class="links">
+        <article id="futebol">
+          <h2>Futebol</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            alias ea officiis suscipit porro. Sapiente fugiat exercitationem,
+            repellat velit amet, mollitia dolores explicabo commodi, dicta enim
+            perferendis praesentium esse earum! Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Enim praesentium velit dolore
+            excepturi inventore cum dolorum illo? Cupiditate iste maiores atque,
+            tempore minus id in molestiae nostrum, mollitia enim perspiciatis!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            voluptate, iure natus voluptas temporibus a eum obcaecati qui ea
+            consectetur laborum placeat enim quia necessitatibus! Praesentium
+            impedit quisquam aliquam a?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Possimus quidem veniam, nihil quis ex quod vero
+            autem earum dolore numquam tenetur necessitatibus quibusdam delectus
+            veritatis minus ad repellendus consequuntur aut?
+          </p>
+        </article>
+      </section>
+      <section class="links">
+        <article>
+          <h2>Elenco</h2>
+          <picture>
+            <source
+              media="(max-width: 750px)"
+              srcset="imagens/elenco-p.png"
+              type="image/png"
+            />
+            <source
+              media="(max-width: 1050px)"
+              srcset="imagens/elenco-m"
+              type="image/png"
+            />
+            <img src="imagens/elenco-g.png" alt="imagem flexível" />
+          </picture>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            totam harum illo molestias ipsum reiciendis mollitia praesentium
+            laudantium deserunt ipsam ex numquam, sunt ipsa quae officia rem?
+            Laboriosam, quos dignissimos.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <add>
+        <p>@pedrocunhadev</p>
+      </add>
+    </footer>
+  </body>
+</html>
