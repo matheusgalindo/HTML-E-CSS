@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: 'Android';
-    src: url("../fontes/idroid.otf") format('opentype');
+    src: url("../d010/fontes/idroid.otf") format('opentype');
 }
 
 :root {
@@ -35,9 +35,7 @@ header {
     color: white;
     text-align: center;
     min-height: 150px;
-    padding-top: 35px;
-
-    
+    padding-top: 35px; 
 }
 
 header > h1 {
@@ -47,18 +45,16 @@ header > h1 {
     text-shadow: 2px 2px 0px #00000075;
     line-height: 1em;
     padding: 10px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 header > p {
-    margin-bottom: 20px;
+    padding-bottom: 30px;
     font-weight: normal;
-    text-shadow: 2px 2px 0px #00000075;
+    text-shadow: 1px 1px 0px #00000075;
     padding: 10px 10px 0px 10px;
     line-height: 1.2em;
-
 }
-
 
 nav {
     background-color: var(--color06);
